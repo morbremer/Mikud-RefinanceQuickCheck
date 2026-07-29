@@ -1,0 +1,12 @@
+
+[functions.analyzeRefinanceDocument]
+enabled = true
+verify_jwt = false
+import_map = "./functions/analyzeRefinanceDocument/deno.json"
+entrypoint = "./functions/analyzeRefinanceDocument/index.ts"
+
+[functions.chatWithMiko]
+enabled = true
+verify_jwt = false
+import_map = "./functions/chatWithMiko/deno.json"
+entrypoint = "./functions/chatWithMiko/index.ts"
